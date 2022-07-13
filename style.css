@@ -73,7 +73,11 @@ body {
   text-shadow: 1px 1px 1px #222, -1px -1px -1px #fff;
 }
 
-.center:focus~.social {
+/* .center:focus~.social {
   transform: rotate(calc(360deg / 8 * var(--i)));
 
+} */
+
+.rotate {
+  transform: rotate(calc(360deg / 8 * var(--i)));
 }
